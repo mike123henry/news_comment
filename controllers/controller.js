@@ -12,7 +12,7 @@ var mongoose = require('mongoose');
 var cheerio = require('cheerio');
 
 // Database configuration with mongoose
-mongoose.connect('mongodb://localhost/scraper_one');
+mongoose.connect('mongodb://localhost/Week18HW');
 var db = mongoose.connection;
 
 // show any mongoose errors
